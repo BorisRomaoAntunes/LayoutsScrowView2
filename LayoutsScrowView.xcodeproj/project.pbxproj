@@ -11,6 +11,14 @@
 		A1817A0A2A77EC1A006F165A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1817A092A77EC1A006F165A /* ContentView.swift */; };
 		A1817A0C2A77EC1B006F165A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1817A0B2A77EC1B006F165A /* Assets.xcassets */; };
 		A1817A0F2A77EC1B006F165A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1817A0E2A77EC1B006F165A /* Preview Assets.xcassets */; };
+		A1817A192A77ED05006F165A /* PlantsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1817A182A77ED05006F165A /* PlantsModel.swift */; };
+		A1817A1B2A782517006F165A /* PlantsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1817A1A2A782517006F165A /* PlantsRowView.swift */; };
+		A1817A1D2A782C70006F165A /* PlantsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1817A1C2A782C70006F165A /* PlantsCardView.swift */; };
+		A1817A1F2A783009006F165A /* PlantsSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1817A1E2A783009006F165A /* PlantsSquare.swift */; };
+		A1817A232A7833A5006F165A /* ScrowViewList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1817A222A7833A5006F165A /* ScrowViewList.swift */; };
+		A1817A252A784A86006F165A /* GridScrowViewSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1817A242A784A86006F165A /* GridScrowViewSection.swift */; };
+		A1817A272A784DE1006F165A /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1817A262A784DE1006F165A /* DetailView.swift */; };
+		A1817A292A784ED0006F165A /* ManegerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1817A282A784ED0006F165A /* ManegerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		A1817A092A77EC1A006F165A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A1817A0B2A77EC1B006F165A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1817A0E2A77EC1B006F165A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A1817A182A77ED05006F165A /* PlantsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantsModel.swift; sourceTree = "<group>"; };
+		A1817A1A2A782517006F165A /* PlantsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantsRowView.swift; sourceTree = "<group>"; };
+		A1817A1C2A782C70006F165A /* PlantsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantsCardView.swift; sourceTree = "<group>"; };
+		A1817A1E2A783009006F165A /* PlantsSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantsSquare.swift; sourceTree = "<group>"; };
+		A1817A222A7833A5006F165A /* ScrowViewList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrowViewList.swift; sourceTree = "<group>"; };
+		A1817A242A784A86006F165A /* GridScrowViewSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridScrowViewSection.swift; sourceTree = "<group>"; };
+		A1817A262A784DE1006F165A /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		A1817A282A784ED0006F165A /* ManegerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManegerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +68,9 @@
 			isa = PBXGroup;
 			children = (
 				A1817A072A77EC1A006F165A /* LayoutsScrowViewApp.swift */,
-				A1817A092A77EC1A006F165A /* ContentView.swift */,
+				A1817A162A77EC2F006F165A /* View */,
+				A1817A172A77EC39006F165A /* ModelView */,
+				A1817A152A77EC23006F165A /* Model */,
 				A1817A0B2A77EC1B006F165A /* Assets.xcassets */,
 				A1817A0D2A77EC1B006F165A /* Preview Content */,
 			);
@@ -65,6 +83,52 @@
 				A1817A0E2A77EC1B006F165A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A1817A152A77EC23006F165A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A1817A182A77ED05006F165A /* PlantsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A1817A162A77EC2F006F165A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A1817A092A77EC1A006F165A /* ContentView.swift */,
+				A1817A262A784DE1006F165A /* DetailView.swift */,
+				A1817A202A7832AD006F165A /* custon cells */,
+				A1817A212A7832CF006F165A /* scrowllview content */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A1817A172A77EC39006F165A /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+				A1817A282A784ED0006F165A /* ManegerViewModel.swift */,
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
+		A1817A202A7832AD006F165A /* custon cells */ = {
+			isa = PBXGroup;
+			children = (
+				A1817A1A2A782517006F165A /* PlantsRowView.swift */,
+				A1817A1C2A782C70006F165A /* PlantsCardView.swift */,
+				A1817A1E2A783009006F165A /* PlantsSquare.swift */,
+			);
+			path = "custon cells";
+			sourceTree = "<group>";
+		};
+		A1817A212A7832CF006F165A /* scrowllview content */ = {
+			isa = PBXGroup;
+			children = (
+				A1817A222A7833A5006F165A /* ScrowViewList.swift */,
+				A1817A242A784A86006F165A /* GridScrowViewSection.swift */,
+			);
+			path = "scrowllview content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +201,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1817A292A784ED0006F165A /* ManegerViewModel.swift in Sources */,
+				A1817A1D2A782C70006F165A /* PlantsCardView.swift in Sources */,
+				A1817A272A784DE1006F165A /* DetailView.swift in Sources */,
+				A1817A252A784A86006F165A /* GridScrowViewSection.swift in Sources */,
 				A1817A0A2A77EC1A006F165A /* ContentView.swift in Sources */,
+				A1817A192A77ED05006F165A /* PlantsModel.swift in Sources */,
 				A1817A082A77EC1A006F165A /* LayoutsScrowViewApp.swift in Sources */,
+				A1817A1F2A783009006F165A /* PlantsSquare.swift in Sources */,
+				A1817A232A7833A5006F165A /* ScrowViewList.swift in Sources */,
+				A1817A1B2A782517006F165A /* PlantsRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
