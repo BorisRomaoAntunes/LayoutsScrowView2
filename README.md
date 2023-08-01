@@ -3,7 +3,8 @@
 
 Este projeto faz parte dos mes estudo e aprimoramento dos meus conhecimento na utilização do swift em espesifico neste projeto nas diferente formar de utilizado da ScrowView do IOS 
 
-## [Link para Video Youtube - ScrowView_SwiftUI](https://youtube.com/shorts/88T-3pKTnyI?feature=share)
+
+## [ <img align="center" alt="Rafa-Js" height="90" width="130" src="https://github.com/BorisRomaoAntunes/LayoutsScrowView2/assets/62909074/56fcdf5d-06a8-4743-a5a4-bf380fc5dc12">Link para Video Youtube - ScrowView_SwiftUI](https://youtube.com/shorts/88T-3pKTnyI?feature=share)
 
 ![Simulator Screenshot - iPhone 12 - 2023-08-01 at 12 13 59](https://github.com/BorisRomaoAntunes/LayoutsScrowView2/assets/62909074/1c77df6e-e4ea-4518-9157-4921ca2ee07b)
 
